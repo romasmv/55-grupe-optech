@@ -1,0 +1,9 @@
+# Pasakyti GitHub Linguist, kad HTML, CSS ir JS turi būti skaičiuojami
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Ignoruoti build ir node_modules (kad JS neužgožtų visko)
+node_modules/** linguist-vendored
+dist/** linguist-vendored
+build/** linguist-vendored
