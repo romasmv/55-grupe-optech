@@ -1,0 +1,152 @@
+.section-4{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 30px;
+}
+.progress-bar .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.progress-bar .top:first-child{
+    font-weight: bold;
+}
+
+.progress-bar .bottom {
+  background-color: #ccc;
+  height: 0.5rem;
+}
+.progress-bar .bar {
+  height: 100%;
+  width: 60%;
+}
+.progress-bar .value {
+  background-color: #2b4dff;
+  height: 100%;
+  width: 100%;
+  animation-name: loading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.foto-right{
+  position: relative;
+}
+
+.foto-right-1{
+    width: 489px;
+    margin-left: 205px;
+  }
+
+.foto-right-2{
+  width: 338px;
+  height: 348px;
+  position: absolute;
+  left: 115px;
+  top: 260px;
+}
+
+.foto-right-3{
+    width: 95px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 105px; 
+}
+
+.foto-right-4{
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: 500px;
+    left: 460px; 
+}
+
+
+
+
+
+@media( max-width: 1400px){
+  .left-column-section4 .title{
+    font-size: 40px;
+  }
+}
+
+  @media( max-width:991px){
+      .section-4{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      gap: 60px;     
+    }
+
+    .left-column-section4{
+       width: 100%;
+       
+    }
+      .foto-right-3{
+       display: none;
+    }
+  
+     .foto-right-4{
+      display: none;
+    }
+    
+    .foto-right-2{
+      width: 279px;
+      height: 287px;
+      position: absolute;
+      left: -30px;
+      top: 530px;
+   }
+     .foto-right-1{
+      width: 95%;
+      margin-top: 25px;
+      margin-left: 0px;
+    }
+
+  }
+
+    @media( max-width:768px){
+      .section-4{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      gap: 20px;     
+    }
+
+        .foto-right-2{
+      display: none;
+   }
+     
+      .left-column-section4 .title{
+      font-size: 34px;
+    }
+
+  }
+    @media( max-width:576px){
+      .progress-bar {
+        margin-right: 20px;
+      }
+    }
+
+

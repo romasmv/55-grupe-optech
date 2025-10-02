@@ -1,0 +1,13 @@
+.testimonial-card-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.name-quotes {
+    display: flex;
+    justify-content: space-between;
+}

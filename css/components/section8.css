@@ -1,0 +1,68 @@
+.section-8 {
+    margin: 2rem 0;
+}
+
+.blog-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.blog-title {
+    color: #0a165e;
+    font-size: 50px;
+}
+.blog .cards8 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.4rem;
+}
+.card8-img {
+    overflow: hidden;
+}
+.card8-img img {
+    width: 100%;
+}
+.card8-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 5px;
+}
+.card8-tech {
+    display: flex;
+    gap: 0.5rem;
+    color: #585b6f;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #585b6f;
+    border-radius: 20px;
+}
+.dot-position {
+    display: flex;
+    align-items: center;
+}
+.card8-title {
+    color: #0a165e;
+    font-size: 22px;
+}
+.card8-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2b4dff;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 576px) {
+    .blog-title {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,45 @@
+.aboutus-section1{
+    background-image: url(../../../img/aboutus-section1/breadcrumb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+.aboutus-section1-inside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutUs-sec1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.aboutus-section1-inside h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.aboutus-section1-inside a{
+    font-size: 16px;
+    color: #CED0DF;
+    text-decoration: none;
+}
+
+.aboutus-section1-inside P{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.aboutus-section1-inside :nth-child(2){
+    color: #CED0DF;
+    font-size: 12px;
+}

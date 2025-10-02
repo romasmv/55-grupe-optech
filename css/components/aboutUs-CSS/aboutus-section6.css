@@ -1,0 +1,75 @@
+.aboutus-section6{
+    background-image: url('../../../img/aboutus-section6/cta-bg3.png');
+    width: 100%;
+    height: 513px ;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+    
+}
+.together{
+    max-width: 800px;
+    z-index: 2;
+    position: relative;
+    
+    
+}
+.section-title9{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600px;
+      
+}
+.demo9{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    max-width: 600px;
+    padding: 1rem 1rem 3rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin: 0;
+
+    
+}
+
+.cta-buttonAboutus{
+   
+    background-color: #fff;
+    color: #0A165E;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 16px 28.8px;
+    text-wrap: nowrap;
+}
+
+@media (max-width: 479px) {
+    .section-title9{
+        font-size: 32px;
+        text-align: center;
+        display: flex;
+    }
+    .demo9{
+        max-width: 100%;
+        font-size: 14px;
+        display: flex;
+    }
+    .cta-button9{
+        padding: 12px 24px;
+        font-size: 14px;
+        display: flex;;
+    }
+}

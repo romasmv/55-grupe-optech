@@ -1,0 +1,119 @@
+.stats-section {
+            display: flex;
+            background: #fff;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .stats-container {
+            max-width: auto;
+            margin:  2rem;
+            gap: 2rem;
+            align-items: center;
+            object-fit: contain;
+        }
+
+        .stat-item {
+            display: flex ;
+            align-items: center;
+            gap: 1rem;
+            padding: 0;
+            background: transparent;
+            border: none;
+            
+        }
+
+       
+
+        .stat-icon {
+            background: #eef1ff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+        }
+
+        .stat-icon img {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+       
+
+        .stat-content {
+            flex: 1;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 700;
+            color: #0A165E;
+            margin-bottom: 0.3rem;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #585B6F;
+            font-weight: 400;
+            line-height: 1.4;
+            width: 10rem;
+        }
+
+        
+        .stats-section::before {
+            display: none;
+        }
+
+       
+        @media (max-width:1400) {
+            .stat-icon img {
+            width: 100%;
+            height: 100%;
+            
+        }
+        }
+        @media (max-width:1200) {
+            .stat-icon img {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+            
+        }
+
+        @media (max-width: 768px) {
+            .stats-section {
+                padding: 3rem 1.5rem;
+            }
+           
+            
+            .stat-item {
+                gap: 1rem;
+                padding: 1.2rem;
+            }
+            
+            .stat-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stat-number {
+                font-size: 1.8rem;
+            }
+            
+            .stat-label {
+                font-size: 0.9rem;
+            }
+        }

@@ -1,0 +1,126 @@
+.details-foto1{
+    width: 516px;
+    border-radius: 20px;
+  }
+
+  .section2 .teamdet2 {
+    height: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .teamdetails-first-column{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.teamdetails-first-column h2{
+    color:#0A165E;
+    font-size: 48px;
+}
+
+.teamdetails-first-column p:first-of-type{
+    color: #2b4dff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.teamdetails-first-column p:nth-of-type(2){
+    color: #585b6f;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.teamdet-sec2 .teamdetails-first-column .teamdet5{
+    background-color: transparent;
+    padding: 0;
+
+}
+.teamdetails-first-column a:nth-of-type(2){
+    background-color: transparent;
+    padding: 0;
+}
+
+  .teamdetails-first-column a{
+    font-size: 18px;
+    background-color: #E2E3EC;
+    color: #0A165E;
+    text-decoration: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+.teamdetails-first-column .detsoc a{
+    font-size: 18px;
+    background-color: #E2E3EC;
+    color: #0A165E;
+    text-decoration: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+
+.teamdetails-first-column .detsoc a:hover{
+   background-color: #2b4dff;  
+    color: #ffffff;  
+}
+
+.teamdetails-first-column a:nth-of-type(1){
+    padding-left: 17px;
+    padding-right: 15px;
+}
+
+.teamdetails-first-column .deth2{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.teamdet3{
+    gap: 0;
+}
+
+.form .teamdet3 {
+    justify-content: flex-start;
+}
+
+.form .teamdet3 button {
+    width: auto;
+    text-decoration: none;
+    color: #0A165E;
+    background-color: #2b4dff;
+    color: #ffffff;
+    padding: 1.2rem 1.8rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #2b4dff;
+}
+
+.teamdet-sec21{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+  @media( max-width: 1200px){
+      .details-foto1{
+       width: 376px;    
+    }
+}
+
+  @media( max-width: 992px){
+      .details-foto1{
+       width: 696px;    
+    }
+}
+  @media( max-width: 768px){
+      .details-foto1{
+       max-width: 100%;    
+    }
+}

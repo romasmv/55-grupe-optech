@@ -1,0 +1,28 @@
+.footer-blue{
+   background-color: #040d43;
+}
+
+.footer-first-column p{
+       color: #ced0df;
+}
+
+.footer-first-column a{
+    color: #ffffff;
+    background-color: #1e2656;
+
+}
+.footer-first-column img{
+    color: #E2E3EC;
+}
+
+.footer-design a{
+    color: #ced0df;
+}
+.footer-design p{
+    color: #ffffff;
+}
+
+.footer-bottom{
+    color: #ced0df;
+    border-top:0.15rem solid rgba(206, 208, 223, .2);
+}

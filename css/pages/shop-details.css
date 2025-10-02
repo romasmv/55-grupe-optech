@@ -1,0 +1,7 @@
+@import './home.css';
+@import './aboutUs.css';
+
+
+
+/* Sections */
+@import './../components/shop-details/shop-details.css';

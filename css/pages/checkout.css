@@ -1,0 +1,7 @@
+@import './home.css';
+@import './aboutUs.css';
+
+
+
+/* Sections */
+@import '../components/checkout/checkout-section2.css';

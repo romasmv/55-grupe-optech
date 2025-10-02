@@ -1,0 +1,50 @@
+.bca1{
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.faqsecup{
+    padding: 0 230px;
+}
+
+.faqsecup p{
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+
+}
+
+.faqsecdown{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.faqsecdown a{
+    color: #0a165E;
+    background-color: #dee2e6;
+}
+
+@media (max-width: 1200px){
+    .faqsecup{
+    padding: 0 150px;
+}
+}
+@media (max-width: 991px){
+    .faqsecup{
+    padding: 0 100px;
+    text-align: start;
+}
+    .faq-ins{
+        gap: 20px;
+    }
+}
+@media (max-width: 767px){
+    .faqsecup{
+    padding: 0 ;
+    text-align: start;
+}
+}

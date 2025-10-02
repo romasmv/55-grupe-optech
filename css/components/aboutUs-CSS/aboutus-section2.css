@@ -1,0 +1,253 @@
+.back2 {
+    background-color: #fff;
+}
+.about-us-right-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.title {
+    color: #0a165e;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.font-text {
+    display: flex;
+    gap: 1rem;
+}
+.fa2 {
+    font-size: 20px;
+}
+
+.about-us-subtitle2 {
+    color: #0a165e;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    color: #585b6f;
+    line-height: 1.8em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    height: 4rem;
+    background-color: #2b4dff;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0 solid #2b4dff;
+    text-decoration: none;
+}
+
+.foto{
+  position: relative;
+}
+
+.foto1{
+    width: 489px;
+  }
+
+.foto2{
+    width: 310px;
+    height: 348px;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+}
+
+.foto3{
+    width: 130px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    right: 60px; 
+}
+
+.foto4{
+    width: 95px;
+    height: 100px;
+    position: absolute;
+    top: 485px;
+    right: 320px; 
+}
+
+.about-us-section2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+
+@media(min-width:992px){  
+    .foto {
+        margin-left: 40px;
+    }  
+    .foto4{
+        width: 100px;
+        height: 110px;
+        position: absolute;
+        top: 305px;
+        right: 190px;
+    }
+    .foto3{
+        width: 130px;
+        height: 200px;
+        position: absolute;
+        top: 70px;
+        right: 25px;
+    }
+    .foto2{
+        width: 220px;
+        height: 240px;
+        position: absolute;
+        right: -20px;
+        top: 200px;
+   }
+     .foto1{
+        width: 75%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .about-us-right-section2{
+        width: 50%;
+        padding: 40px;
+    }
+    .about-us-right-section2 .title {
+        font-size: 38px;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:1200px){ 
+    .foto {
+        margin-left: 20px;
+    }  
+    .foto4{
+        width: 90px;
+        height: 100px;
+        position: absolute;
+        top: 400px;
+        right: 180px;
+    }
+    .foto3{
+        width: 130px;
+        height: 200px;
+        position: absolute;
+        top: 55px;
+        right: -35px;
+    }
+    .foto2{
+        width: 260px;
+        height: 300px;
+        position: absolute;
+        right: -70px;
+        top: 225px;
+   }
+     .foto1{
+        width: 90%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .about-us-right-section2{
+        width: 60%;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .about-us-right-section2 .title {
+        width: 100%;
+        font-size: 45px;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:1400px){    
+    .foto4{
+        width: 100px;
+        height: 110px;
+        position: absolute;
+        top: 470px;
+        right: 225px;
+    }
+    .foto3{
+        width: 130px;
+        height: 200px;
+        position: absolute;
+        top: 70px;
+        right: -30px;
+    }
+    .foto2{
+        width: 300px;
+        height: 350px;
+        position: absolute;
+        right: -65px;
+        top: 240px;
+   }
+     .foto1{
+        width: 90%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .about-us-right-section2{
+        width: 60%;
+        margin-left: 80px;
+        margin-bottom: 120px;
+    }
+}
+@media( max-width:991px){
+    .about-us-section2{
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 60px;     
+    }
+    .foto3{
+       display: none;
+    }
+  
+     .foto4{
+      display: none;
+    }
+    
+    .foto2{
+      width: 250px;
+      height: 287px;
+      position: absolute;
+      right: -50px;
+      top: 510px;
+   }
+     .foto1{
+      width: 100%;
+      margin-top: 25px;
+      margin-left: 0px;
+    }
+    .about-us-right-section2 .title {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+ @media( max-width:768px){
+    .about-us-section2{
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: start;
+      gap: 0px;     
+    }
+    .foto2{
+      display: none;
+   }
+   .about-us-right-section2 {
+    width: 100%;
+   }
+   .about-us-right-section2 .title{
+    font-size: 35px;
+   }
+}

@@ -1,0 +1,9 @@
+.blogdet{
+    width: 70%;
+    align-self: center;
+}
+
+.blogdet1 p:nth-of-type(2){
+    font-size: 12px;
+    color: #CED0DF;
+}

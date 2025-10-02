@@ -1,0 +1,91 @@
+.prcS2-clm {
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid #e3e3ec;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prcS2-clm.active {
+    background-color: rgb(43, 77, 255);
+    color: #fff;
+}
+
+.prcS2-clm.active h2 {
+    color: #fff;
+}
+
+.prcS2-clm.active p {
+    color: #fff;
+}
+
+.prcS2-clm.active h3 {
+    color: #fff;
+}
+
+.prcS2-clm.active h3 span {
+    color: #fff;
+}
+
+.prcS2-clm.active i {
+    color: #fff;
+}
+
+.prcS2-clm.active span {
+    color: #fff;
+}
+
+
+.prcs2-clm-title {
+    font-size: 1.4rem;
+    /* width: 13rem; */
+    margin-bottom: 1rem;
+    color: #0a165e;
+}
+
+.prcS2-clm-p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: #585b6f;
+}
+
+.prcS2-h3 {
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    color: #0a165e;
+}
+
+.prcS2-h3 span {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #585b6f;
+}
+
+.prcS2-clm-list {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    color: #0a165e;
+}
+
+.prcS2-clm-list i {
+    padding-right: 1rem;
+}
+
+.prcS2-btn {
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    background-color: #e2e3ec;
+    padding: 1.3rem 1.7rem;
+    margin-top: 2.8rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #0a165e;
+}
+
+.prcS2-btn:hover {
+    background-color: #0a165e;
+    color: #fff
+}

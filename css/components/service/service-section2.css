@@ -1,0 +1,45 @@
+
+.service2-title {
+    font-size: 50px;
+    text-align: center;
+    color: #0a165e;
+    margin-bottom: 2rem;
+}
+.service2-card-img {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.service2-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 6rem 0 0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.service2-card-number {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.9em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #2b4dff;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    translate: -50% -50%;
+}
+.service2-card-title {
+    color: #0a165e;
+    font-size: 22px;
+}
+.service2-card-text {
+    width: 100%;
+    color: #585b6f;
+    line-height: 1.8rem;
+}
