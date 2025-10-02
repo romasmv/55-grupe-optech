@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/55-grupe-teamwork-optech/
+Site published at: https://romasmv.github.io/optechh/
 
 Design: ![Optech] https://optech-next.vercel.app/home-6
 
@@ -51,7 +51,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://front-end-by-rimantas.github.io/55-grupe-teamwork-optech/
+    git clone https://github.com/romasmv/55-grupe-optech.git
     ```
 2. Install NPM packages
     ```sh
@@ -70,18 +70,9 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 There is no tests for this project.
 
-## 🎅 Authors
+## 🎅 Author
 
-Lina: [Github](https://github.com/cyber9933)
 Roman: [Github](https://github.com/romasmv)
-Aurelija:[Github](https://github.com/Aura-Lem)
-Linas: [Github](https://github.com/KetleriusLinas)
-Anton: [Github](https://github.com/Hippo-2025)
-
-
-
-
- 
 
 
 ## ⚠️ License
